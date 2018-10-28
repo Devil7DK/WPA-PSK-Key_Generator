@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         generate.setOnClickListener(generatePSK)
     }
 
-    fun stringToHex(str: ArrayList<Byte>) =
+    private fun stringToHex(str: ArrayList<Byte>) =
             str
                     .toByteArray()
                     .joinToString(separator = "") {
