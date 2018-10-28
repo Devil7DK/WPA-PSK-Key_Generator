@@ -9,4 +9,8 @@
     <!-- Buttons -->
     <string name="generate">Generate PSK</string>
 
+    <!-- Messages -->
+    <string name="message_id_empty">SSID cannot be empty</string>
+    <string name="message_pass_empty">Passphrase cannot be empty</string>
+
 </resources>
